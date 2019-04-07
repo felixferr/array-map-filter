@@ -38,8 +38,7 @@ Exemple d'entrée:
 
  */
 
-function searchWordFilter(items, search) {
-}
+let searchWordFilter = (items, search) => items.filter(a => a.toLowerCase().includes(search.toLowerCase()))
 
 // Ne pas modifier l'export
 module.exports = searchWordFilter;

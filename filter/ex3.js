@@ -23,8 +23,7 @@ Sortie attendue:
 
  */
 
-function keepStarks(names) {
-}
+let keepStarks=(names)=>names.filter(a => a.includes('Stark'))
 
 // Ne pas modifier l'export
 module.exports = keepStarks;
